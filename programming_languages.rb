@@ -1,4 +1,5 @@
 def reformat_languages(languages)
+=begin
   style_hash = {}
   new_hash = {}
 
@@ -17,7 +18,8 @@ def reformat_languages(languages)
   end
 end
 new_hash
-=begin
+=end
+#=begin
   new_hash = {}
   languages.each do |att, style|
     style.each do |language, type|
@@ -34,5 +36,5 @@ new_hash
     end
   end
   new_hash
-=end
+#=end
 end
